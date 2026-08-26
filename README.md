@@ -65,37 +65,37 @@ The AI assessment is intended to support the initial evaluation process rather t
 
 The application provides a central interface for browsing and managing submitted AI ideas.
 
-![AI Ideas Power App](screenshots/00_AI_Ideas_Power_App.png)
+![AI Ideas Power App](00_AI_Ideas_Power_App.png)
 
 ### 2. Microsoft Dataverse – AI Ideas Table
 
 AI ideas and their associated business information are stored in a structured Dataverse table.
 
-![Dataverse AI Ideas Table](screenshots/01_Dataverse_AI_Ideas_Table.png)
+![Dataverse AI Ideas Table](01_Dataverse_AI_Ideas_Table.png)
 
 ### 3. Power Automate – Workflow Overview
 
 The automated workflow detects new AI ideas and processes high-priority submissions.
 
-![Power Automate Flow](screenshots/02_Power_Automate_Flow_Overview.png)
+![Power Automate Flow](02_Power_Automate_Flow_Overview.png)
 
 ### 4. AI Builder – Custom Prompt
 
 Business information from the Dataverse record is dynamically passed to an AI Builder custom prompt for assessment.
 
-![AI Builder Prompt](screenshots/03_AI_Builder_Custom_Prompt_Input.png)
+![AI Builder Prompt](03_AI_Builder_Custom_Prompt_Input.png)
 
 ### 5. Saving the AI Assessment
 
 The generated assessment is stored in Dataverse and the idea status is automatically changed to `Under Review`.
 
-![Dataverse Update](screenshots/04_Dataverse_AI_Assessment_Update.png)
+![Dataverse Update](04_Dataverse_AI_Assessment_Update.png)
 
 ### 6. Microsoft Teams Notification
 
 Power Automate builds a Teams notification containing the original idea information and the generated AI assessment.
 
-![Teams Notification Configuration](screenshots/05_Teams_Notification_Configuration.png)
+![Teams Notification Configuration](05_Teams_Notification_Configuration.png)
 
 ### 7. Final AI Assessment in Microsoft Teams
 
@@ -103,7 +103,7 @@ Example of a successfully processed high-priority AI idea.
 
 The AI generated an assessment including business value, feasibility, benefits, risks, and a recommendation to proceed with a Proof of Concept.
 
-![Teams AI Assessment](screenshots/06_Teams_AI_Assessment_Result.png)
+![Teams AI Assessment](06_Teams_AI_Assessment_Result.png)
 
 ## Example Use Case
 
